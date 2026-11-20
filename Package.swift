@@ -18,9 +18,5 @@ let package = Package(
         .target(
             name: "ANSI"
         ),
-        .testTarget(
-            name: "ANSITests",
-            dependencies: ["ANSI"]
-        ),
     ]
 )
